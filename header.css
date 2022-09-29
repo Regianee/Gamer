@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 414px;
+    height: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #222222;
+}
+.logo {
+    background: #222222;
+    width: 200px;
+    height: 40px;
+}span#burguer {
+    display: block;
+    width: 22px;
+    height: 22px;
+    color: #FFFFFF;
+    text-align: right;
+    cursor: pointer;}
+nav a{
+    display: none;
+}
+nav a img {
+    display: none;
+   
+}
+@media (min-width:760px) {
+    header {display: flex;
+        flex-direction: row;
+        width: 100vw;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    nav a {display: inline;
+            margin-left: 5px;
+            text-decoration: none;
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #F3F3F3;
+        }
+        span#burguer {
+            display: none;}
+
+        nav a img {display: inline;
+        width: 28px;
+        height: 25px;
+        
+
+    }}
